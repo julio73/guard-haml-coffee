@@ -1,4 +1,4 @@
-# Guard::Haml::Coffee
+# Guard::HamlCoffee
 
 Guard gem to generate Javascript code from [Haml Coffee](https://github.com/netzpirat/haml-coffee) templates. Inspired by [haml_coffee_assets](https://github.com/netzpirat/haml_coffee_assets).
 
@@ -6,7 +6,7 @@ Guard gem to generate Javascript code from [Haml Coffee](https://github.com/netz
 
 Add this line to your application's Gemfile:
 
-    gem 'guard-haml-coffee'
+    gem 'guard-hamlcoffee'
 
 And then execute:
 
@@ -22,7 +22,7 @@ As a prerequisite, you must have [Guard](https://github.com/guard/guard) install
 
 Add the haml-coffee instructions to the `Guardfile`:
     
-    $ bundle exec guard init haml-coffee
+    $ bundle exec guard init hamlcoffee
 
 Restart guard if it's running and that's it.
 

@@ -18,8 +18,8 @@ module Guard
     def start
       ::Guard::UI.info("Guard::HamlCoffee has started watching your files",{})
       source = File.read(::CoffeeScript::Source.path) + ";"
-      source += File.read(File.expand_path('../haml-coffee/hamlcoffee.js', __FILE__)) + ";"
-      source += File.read(File.expand_path('../haml-coffee/hamlcoffee_compiler.js', __FILE__))
+      source += File.read(File.expand_path('../hamlcoffee/hamlcoffee.js', __FILE__)) + ";"
+      source += File.read(File.expand_path('../hamlcoffee/hamlcoffee_compiler.js', __FILE__))
       @runtime = ExecJS.compile(source)
     end
 
