@@ -1,6 +1,6 @@
 # Guard::HamlCoffee
 
-##(Technically not a pulished gem, just a forked copy)
+**(Technically not a pulished gem, just a forked copy. Original gem is receiving no support, planning to close this one as well.)**
 
 Guard gem to generate Javascript code from [Haml Coffee](https://github.com/netzpirat/haml-coffee) templates. Inspired by [haml_coffee_assets](https://github.com/netzpirat/haml_coffee_assets).
 
